@@ -25,14 +25,14 @@ Before you can use this script, ensure you have the following:
 ### 1. Clone the Repository
     
 To get started, first, clone this repository to your local machine:
-    
-    
-    git clone https://github.com/Dimplektech/Exercise-Tracker.git
+  git clone https://github.com/Dimplektech/Exercise-Tracker.git
+  
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
  - Creating a virtual environment isolates your project and helps manage dependencies. To set up a virtual environment:
      Create a virtual environment
-     ```bash
+     
+     
      python -m venv venv
     
  - Activate the virtual environment **
@@ -75,30 +75,23 @@ You can set environment variables in PowerShell by running:
     $env:SHEETY_USER="your_sheety_username_here"
     $env:SHEETY_PASSWO="your_sheety_password_here"
 
-### 5. How to Run the Script
-1.Activate your virtual environment (if you created one) by running:
-    
-- On Windows:    
-    venv\Scripts\activate
-    source venv/bin/activate
 
- - On macOS/Linux:    
-    source venv/bin/activate
-
- ### 6.Run the script:        
-     python main.py
+### 6.Run the script:        
+         python main.py
 
 ###  Dependencies
-    - requests: For making HTTP requests to the Nutritionix and Sheety APIs.
-    - datetime: For handling date and time formatting.
-    - os: For reading environment variables.
-    - requests.auth: For HTTP Basic Authentication with the Sheety API.
+        - requests: For making HTTP requests to the Nutritionix and Sheety APIs.
+        - datetime: For handling date and time formatting.
+        - os: For reading environment variables.
+        - requests.auth: For HTTP Basic Authentication with the Sheety API.
 
-    - You can install these dependencies by running:
-        pip install requests
+ - You can install these dependencies by running:
+    ```bash
+    pip install requests
 
-    - Alternatively, use the requirements.txt file:
-        pip install -r requirements.txt
+- Alternatively, use the requirements.txt file:
+    ```bash
+    pip install -r requirements.txt
 
     
 
